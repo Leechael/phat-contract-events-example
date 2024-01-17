@@ -1,0 +1,20 @@
+{
+  "name": "phat-contract-events-example",
+  "version": "1.0.0",
+  "description": "This repo is the minimal PhatContract template, which only minimal build dependencies & only one function that returns version tuple.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@phala/sdk": "^0.5.8",
+    "arg": "^5.0.2",
+    "dotenv": "^16.3.1"
+  }
+}
