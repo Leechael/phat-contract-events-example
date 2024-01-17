@@ -68,19 +68,17 @@ mod erc20 {
             let mut balances = Mapping::default();
             balances.insert(caller, &initial_supply);
 
-            let instance = Self {
-                total_supply: initial_supply,
-                balances,
-                allowances: Mapping::default(),
-            };
-
-            instance.env().emit_event(Transfer {
+            Self::env().emit_event(Transfer {
                 from: None,
                 to: Some(caller),
                 value: initial_supply,
             });
 
-            instance
+            Self {
+                total_supply: initial_supply,
+                balances,
+                allowances: Mapping::default(),
+            }
         }
 
         #[ink(message)]
