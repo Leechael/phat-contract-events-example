@@ -2,7 +2,7 @@
 
 This is an ERC20 implementation from [ink-examples](https://github.com/paritytech/ink-examples/blob/main/erc20/lib.rs) that can be deployed on the Phala Network.
 
-Try out the PoC6 Testnet: [Deploy Now](https://phat.phala.network/contracts/add/0xe746bce6c1bddd138329e81977af14a18aa35a10c7f2a7c571cc66415ccfb98a?rpc=wss://poc6.phala.network/ws)
+Try out the PoC6 Testnet: [Deploy Now](https://phat.phala.network/contracts/add/0xcaa949f901d70b9f5ea8114dbfb08e88f56b1a5a1ad9f7439894278d21622d18)
 
 
 ## Steps
